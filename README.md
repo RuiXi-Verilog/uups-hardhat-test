@@ -17,4 +17,5 @@ npx hardhat test
     - test: deploys <== test whether MyTokenV1 fits the upgradeable patterns
     - test: upgrades <== test whether MyTokenV2 override MyTokenV1
     - test: addresses <== test whether V1 and V2 have the same proxy address
+    - test: throw <== test if a broken upgrade is blocked by the plugin
     
